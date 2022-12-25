@@ -1,14 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "restaurant":[
+        {
+            "id":1,
+            "name":"La Milano Pizzaria",
+            "address":"Chandkheda",
+            "rating":"4.5",
+            "email":"lamilano@test.com"
+        },
+        {
+            "id":2,
+            "name":"La Pinoz Pizzaria",
+            "address":"Chandkheda",
+            "rating":"4.1",
+            "email":"lapinoz@test.com"
+        },
+        {
+            "id":3,
+            "name":"Dominos Pizzaria",
+            "address":"Chandkheda",
+            "rating":"4.7",
+            "email":"dominos@test.com"
+        },
+        {
+            "id":4,
+            "name":"William Jhones Pizzaria",
+            "address":"Chandkheda",
+            "rating":"3.9",
+            "email":"wjhones@test.com"
+        }
+    ]
 }
